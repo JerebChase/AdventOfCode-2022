@@ -15,5 +15,6 @@ if __name__ == '__main__':
     #result = get_top3_calories(lines)
     #result = estimate_score(lines)
     #result = calculate_score(lines)
+    #result = get_priority_sum(lines)
     result = get_common_priority_sum(lines)
     print(result)
