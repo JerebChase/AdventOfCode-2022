@@ -8,7 +8,6 @@ def get_top_crates(input):
         if "[" in input[i]:
             # reading in the crate info
             crates = re.findall("[A-Z]|\s{4}", input[i])
-            print(crates)
             raw_stacks.append(crates)
         elif "move" in input[i]:
             # for every line of instruction - move the crates
