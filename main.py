@@ -23,5 +23,6 @@ if __name__ == '__main__':
     #esult = get_fully_contained_assignments(lines)
     #result = get_overlapping_assignments(lines)
     #result = get_top_crates(lines)
-    result = get_subroutine_marker(lines)
+    #result = get_subroutine_marker(lines)
+    result = get_message_marker(lines)
     print(result)
