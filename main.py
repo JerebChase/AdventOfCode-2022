@@ -3,7 +3,8 @@
 #from day3.day3puzzles import *
 #from day4.day4puzzles import *
 #from day5.day5puzzles import *
-from day6.day6puzzles import *
+#from day6.day6puzzles import *
+from day7.day7puzzles import *
 
 def read_file(fileName):
     with open(fileName) as f:
@@ -13,7 +14,7 @@ def read_file(fileName):
     return lines
 
 if __name__ == '__main__':
-    lines = read_file('day6/input.txt')
+    lines = read_file('day7/input.txt')
     #result = get_max_calories(lines)
     #result = get_top3_calories(lines)
     #result = estimate_score(lines)
@@ -24,5 +25,7 @@ if __name__ == '__main__':
     #result = get_overlapping_assignments(lines)
     #result = get_top_crates(lines)
     #result = get_subroutine_marker(lines)
-    result = get_message_marker(lines)
+    #result = get_message_marker(lines)
+    #result = get_delete_dir_size(lines)
+    result = get_dir_to_delete(lines)
     print(result)
